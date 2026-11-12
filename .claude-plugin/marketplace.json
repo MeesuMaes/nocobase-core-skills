@@ -1,0 +1,21 @@
+{
+  "name": "nocobase-core-skills",
+  "owner": {
+    "name": "MeesuMaes"
+  },
+  "metadata": {
+    "description": "NocoBase 3 Core 中文文档答疑技能，按 Agent Skills 规范打包",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "nocobase-core",
+      "description": "解答 NocoBase 3 Core 应用开发、插件、框架、架构、部署与参考问题，并给出文档出处",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/nocobase-core"
+      ]
+    }
+  ]
+}
